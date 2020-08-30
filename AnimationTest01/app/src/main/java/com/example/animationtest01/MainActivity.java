@@ -19,6 +19,8 @@ import cn.com.newland.nle_sdk.util.NCallBack;
 import cn.com.newland.nle_sdk.util.NetWorkBusiness;
 
 public class MainActivity extends AppCompatActivity {
+//    这是as接入git 的第一个测试
+//    这是as接入git 的第2个测试
 
     ImageView imageView;
     Animation rotate;
