@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartfactory">
+
+    <!--网络权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".tools.SmartFactoryApplication"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".SettingActivity"
+           android:label="@string/globle_params_setting">
+        </activity>
+        <!--
+         configration_change 是配置改变的类型，通过设置告诉 Android 不要考虑 屏幕方向和屏幕大小的变化
+             intent-filter里面的语句是表示当前第一个默认的页面
+        -->
+        <activity android:name=".SplashActivity">
+
+            <!-- android:configChanges="orientation|screenLayout"> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+
+
+</manifest>

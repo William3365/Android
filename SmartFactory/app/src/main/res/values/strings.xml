@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SmartFactory汤冯涛</string>
+    <string name="welcome">欢迎使用智慧工厂APP</string>
+    <string name="globle_params_setting">全局参数设置</string>
+
+    <!--spinner列表，字符串值,默认选择最上边的一项-->
+    <string-array name="control">
+        <item>打开</item>
+        <item>关闭</item>
+        <item>自动</item>
+    </string-array>
+
+    <string name="cloud_params_setting">物联网云平台参数设置</string>
+    <string name="server_address">服务器地址：</string>
+    <string name="address_hint">192.168.0.1</string>
+    <string name="cloud_project_label">云平台项目标识：</string>
+    <string name="cloud_account">云平台账号：</string>
+    <string name="cloud_account_password">云平台密码：</string>
+    <string name="camera_address_setting">监控摄像设备参数设置</string>
+    <string name="camera_address">摄像头地址：</string>
+    <string name="sensor_actuator_setting">传感器执行器参数设置</string>
+    <string name="wd_id">温度设备ID：</string>
+    <string name="wd_yz">温度阈值：</string>
+    <string name="sd_id">湿度设备ID：</string>
+    <string name="sd_yz">湿度阈值：</string>
+    <string name="gz_id">光照设备ID：</string>
+    <string name="gz_yz">光照阈值：</string>
+    <string name="rt_id">人体感应ID：</string>
+    <string name="gz_kz_id">光照控制设备ID：</string>
+    <string name="tf_kz_id">通风控制设备ID：</string>
+    <string name="kt_kz_id">空调控制设备ID：</string>
+    <string name="bccs">保存参数</string>
+
+    <string name="server_address_empty">请输入服务器地址</string>
+    <string name="cloud_project_label_empty">请输入云平台项目标识</string>
+    <string name="cloud_account_empty">请输入云平台账号</string>
+    <string name="cloud_account_password_empty">请输入云平台密码</string>
+    <string name="camera_address_empty">请输入摄像头地址</string>
+    <string name="showToast_success">保存成功</string>
+
+</resources>

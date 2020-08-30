@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp">
+
+    <!--
+    app:tabIndicatorColor=""   指示器颜色
+    app:tabIndicatorHeight=""  指示器高度，设置为0 就是没有指示器
+    app:tabTextColor=""    Tab文本默认颜色
+    app:tabSelectedTextColor=""     Tab文本被选中后的颜色
+    app:tabTextAppearance=""      为Tab文本设置样式，一般是需要为Tab加图标时使用
+    app:tabMode=""  只有两个值：fixed、scrollable
+    其中 fixed用于标题栏少的情况，每个Tab可以平分屏幕宽度
+    其中 scrollable用于标题栏多出屏幕的情况，如果标题栏少的时候用很难看，占不满屏幕
+    app:tabGravity="center" 整体居中，不可与上共用
+    app:tabBackground=""    TabLayout背景，和android:background=""效果一样
+    app:tabGravity=""    对齐方式:  居中显示center、fill填满
+    -->
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="@color/Yellow"
+        app:tabTextColor="@android:color/black"
+        app:tabSelectedTextColor="@color/Red"/>
+</LinearLayout>

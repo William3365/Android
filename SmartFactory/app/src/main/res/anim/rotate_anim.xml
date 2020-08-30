@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    1、声明xml版本，编码方式
+    2、为rotate命名空间定义
+-->
+<!--
+    1、指定图片资源位置
+    2、指定动画持续时间，单位毫秒
+    3、指定图片开始旋转角度0，正数代表顺时针，负数代表逆时针
+    4、指定插值器种类，主要作用是可以控制动画的变化速率，这里使用线性插值器linear_interpolator来实现动画匀速改变
+    5、缩放起点x坐标，50%表示以当前View的左上角加上当前View宽高的50%做为初始点
+    6、缩放起点y坐标
+    7、指定了一个动画的重复次数，int型，“-1”表示无限循环，“1”表示动画在第一次执行完成后重复执行一次，也就是两次，默认为0，不重复执行
+    8、旋转角度，正顺负逆
+    9、指定图片初始显示状态，默认不可见
+-->
+    <rotate
+        android:drawable="@drawable/fan"
+        android:duration="1500"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatCount="-1"
+        android:toDegrees="360"
+        android:visible="true">
+    </rotate>
+
+</rotate>

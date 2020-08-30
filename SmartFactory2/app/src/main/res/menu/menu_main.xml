@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <!--item元素,为菜单增加菜单项,每一个菜单项都用一个单独的item描述-->
+    <!--orderInCategory属性，指定菜单项的出现顺序
+        showAsAction属性，指定是否希望菜单项出现在菜单条中
+            “never”指将动作项放到溢出区中，而不要放到动作条中
+            “ifRoom”指如果有空间，将这个动作项放在动作条中，如果没有 空间就放在溢出区中
+            “withText”指包含这个动作项的标题文本。
+            “always”指 总把这个动作项放在主动作条中（可能会导致动作项重叠-->
+    <item
+        android:id="@+id/action_setting"
+        android:title="@string/setting"
+        android:icon="@drawable/setting"
+        android:orderInCategory="1"
+        android:showAsAction="never">
+
+    </item>
+
+</menu>

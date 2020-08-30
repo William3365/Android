@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <!--RelativeLayout特有的， 水平垂直居中android:layout_centerInParent="true"-->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎使用智慧工厂APP"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本1.0"
+        android:layout_below="@id/tv1"
+        android:layout_centerInParent="true"/>
+<!--layout_marginRight 作用是设置在视图右边额外增加的空间-->
+<!--layout_alignParentRight 作用是把视图与父视图右边对齐-->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6s"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="15dp"/>
+<!--:onClick=“onClickCancel”指定该文本视图被点击后要调 用的方法名称为“onClickCancel”-->
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳过"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClickCancel"/>
+
+</RelativeLayout>
