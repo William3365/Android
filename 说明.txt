@@ -20,10 +20,21 @@ Project01---灯光控制
 Project02---五金店
 Project03---图书馆
 Project04---健身房
+
 Project05---插座
 Project06---粮仓
 Project07--燃气
-
+Project08--水壶
+Project09--社区
+Project10--民宿
+Project11--种菜
+Project12--种花
+Project13--新风
+Project14--摇篮
+Project15--饮水机
+Project16--衣柜
+Project17--养猪
+Project18--雨林缸
 
 签名Key
 密码：william3365

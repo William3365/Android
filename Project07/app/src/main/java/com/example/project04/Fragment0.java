@@ -85,7 +85,7 @@ public class Fragment0 extends Fragment {
         shebei = random.nextBoolean();
 
         //燃气状态
-        if (ranqi = false){
+        if (ranqi == false){
             handler.sendEmptyMessage(1);
         }else {
             new Timer().schedule(new TimerTask() {
@@ -97,7 +97,7 @@ public class Fragment0 extends Fragment {
         }
 
         //设备状态
-        if (shebei = false){
+        if (shebei == false){
             handler.sendEmptyMessage(2);
         }else {
             new Timer().schedule(new TimerTask() {

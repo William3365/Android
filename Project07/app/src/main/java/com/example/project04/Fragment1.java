@@ -1,7 +1,6 @@
 package com.example.project04;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -15,8 +14,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import java.util.Timer;
-
 import pl.droidsonroids.gif.GifImageView;
 
 public class Fragment1 extends Fragment {
@@ -26,7 +23,9 @@ public class Fragment1 extends Fragment {
     private TextView tv1;
     private ImageView img1,img2;
     private boolean onoff = false;//开关初始状态
+    @SuppressLint("HandlerLeak")
     private Handler handler = new Handler(){
+        @SuppressLint("WrongConstant")
         @Override
         public void handleMessage(@NonNull Message msg) {
             switch (msg.what){

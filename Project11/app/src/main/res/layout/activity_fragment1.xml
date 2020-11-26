@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1"
+    android:background="@mipmap/bj">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_style"
+        android:alpha="0.8"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/water"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/tv_js"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"/>
+        <Button
+            android:id="@+id/bt_js"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="浇水"
+            android:background="@color/Blue"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+<!--
+invisible:不显示,但保留所占的空间；
+visible:正常显示；
+gone：不显示,且不保留所占的空间
+-->
+    <LinearLayout
+
+        android:visibility="gone"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_style"
+        android:alpha="0.8"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/fengshan"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/tv_tf"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"/>
+        <Button
+            android:id="@+id/bt_tf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/Blue"
+            android:text="通风" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/layout_style"
+        android:alpha="0.8"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/light"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/tv_zg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"/>
+        <Button
+            android:id="@+id/bt_zg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="遮光"
+            android:background="@color/Blue"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+</LinearLayout>

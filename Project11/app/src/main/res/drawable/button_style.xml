@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--selector属性，根据不同的选定状态定义不同的实现效果-->
+<!--此处定义两种不同的效果-->
+<!--如果定义了多个item，要注意item是从上往下匹配的，所以默认状态要设置在最后一个-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--已点击
+    android:state_pressed 是 selector 的一个属性，表示是否点击
+    android:shape 用于设置控件的自身属性的效果形状，这里是 recta ngle（矩形）
+    <solid>元素定义了填充颜色
+    <corners>元素定义了圆角的半径，值越大角越圆-->
+    <item android:state_pressed="true">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <!--圆角灰色按钮-->
+            <solid android:color="@color/colorPrimaryDark"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="false">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <!--圆角蓝色按钮-->
+            <solid android:color="@color/Green"/>
+            <corners android:radius="16dip"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <!--圆角灰色按钮-->
+            <solid android:color="@color/colorPrimaryDark"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+</selector>

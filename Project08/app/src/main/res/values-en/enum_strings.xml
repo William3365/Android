@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="enum_WiFI_onoff">
+        <item>开启烧水 </item>
+        <item>关闭烧水 </item>
+    </string-array>
+    <string-array name="enum_cl2">
+        <item>开启除氯 </item>
+        <item>关闭除氯 </item>
+    </string-array>
+	
+</resources>
