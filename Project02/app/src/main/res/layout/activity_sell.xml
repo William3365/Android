@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="电动工具"/>
+            android:text="水暖五金类"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="手动工具"/>
+            android:text="厨房五金类"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="仪器仪表"/>
+            android:text="家庭装饰类"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="管材线材"/>
+            android:text="工具五金类"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"

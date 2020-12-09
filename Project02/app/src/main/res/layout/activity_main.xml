@@ -36,114 +36,114 @@
         android:layout_marginRight="10dp"
         android:layout_gravity="center"
         android:background="@drawable/linearlayout_style">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="序号"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="1"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="2"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="3"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="4"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="5"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="6"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="7"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="8"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="9"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="10"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="11"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="12"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="13"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="14"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="15"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="16"
-                    android:gravity="center"/>
-            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="序号"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="1"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="2"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="3"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="4"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="5"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="6"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="7"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="8"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="9"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="10"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="11"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="12"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="13"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="14"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="15"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="16"-->
+<!--                    android:gravity="center"/>-->
+<!--            </LinearLayout>-->
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -160,203 +160,144 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="电动工具"
+                    android:text="工具五金类"
                     android:textStyle="bold"
                     android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="冲击钻"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="角磨机"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="电锯"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="手动工具"
-                    android:textStyle="bold"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="工具箱套装"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="铲刀"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="手锯/板锯"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="仪器仪表"
-                    android:textStyle="bold"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="水平仪"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="测距仪"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="施工测量"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="管材线材"
-                    android:textStyle="bold"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="304钢管"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="PE水管"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="PVC水管"
-                    android:gravity="center"/>
-            </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="库存总数"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"/>
+                    android:gravity="center"
+                    android:text="锤子" />
+
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="30"
+                    android:text="扳手"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="30"
+                    android:text="灯管"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="30"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="50"
+                    android:text="铁锯"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="100"
+                    android:text="灯座"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="50"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="100"
+                    android:text="灯卡座"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="100"
+                    android:text="螺丝灯泡"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="厨房五金类"
+                    android:textStyle="bold"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="100"
+                    android:text="煤气灶"
                     android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="300"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="300"
-                    android:gravity="center"/>
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="铲刀"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="手锯/板锯"-->
+<!--                    android:gravity="center"/>-->
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="300"
+                    android:text="家庭装饰类"
+                    android:textStyle="bold"
                     android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="水暖五金类"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="卫浴五金类"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="水平仪"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="测距仪"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="施工测量"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="管材线材"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="304钢管"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="PE水管"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="PVC水管"-->
+<!--                    android:gravity="center"/>-->
             </LinearLayout>
 
             <LinearLayout
@@ -378,7 +319,37 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
+                    android:text="3"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
                     android:text="9"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="3"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="1"
+                    android:gravity="center"
+                    android:background="@drawable/textview_style"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="3"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="5"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
@@ -389,9 +360,25 @@
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
+                    android:background="@drawable/textview_style"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="20"
+                    android:text="1"
                     android:gravity="center"/>
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="100"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="100"-->
+<!--                    android:gravity="center"/>-->
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
@@ -400,64 +387,20 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="30"
+                    android:text=""
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="70"
+                    android:text=""
                     android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="30"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="55"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="10"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="30"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="180"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="130"
-                    android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="270"
-                    android:gravity="center"/>
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="300"-->
+<!--                    android:gravity="center"/>-->
             </LinearLayout>
 
             <LinearLayout
@@ -469,7 +412,7 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="剩余数量"
+                    android:text="库存"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
@@ -479,19 +422,43 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="21"
+                    android:text="34"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="22"
+                    android:text="31"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="10"
+                    android:text="39"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="1"
+                    android:gravity="center"
+                    android:background="@drawable/textview_style"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="3"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="34"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="56"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
@@ -501,19 +468,54 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="20"
+                    android:text="1"
+                    android:gravity="center"/>
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="10"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="30"-->
+<!--                    android:gravity="center"/>-->
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text=""
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="30"
+                    android:text=""
                     android:gravity="center"/>
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="270"-->
+<!--                    android:gravity="center"/>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="20"
+                    android:text="单位"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
@@ -523,19 +525,43 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="45"
+                    android:text="箱"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="90"
+                    android:text="箱"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="70"
+                    android:text="个"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:text="箱"
+                    android:gravity="center"
+                    android:background="@drawable/textview_style"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="箱"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="箱"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text="框"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
@@ -545,20 +571,42 @@
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="120"
+                    android:text="个"
+                    android:gravity="center"/>
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="90"-->
+<!--                    android:gravity="center"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="70"-->
+<!--                    android:gravity="center"/>-->
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/textview_style"
+                    android:text=""
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:background="@drawable/textview_style"
-                    android:text="170"
+                    android:text=""
                     android:gravity="center"/>
-                <TextView
-                    android:layout_width="80dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/textview_style"
-                    android:text="30"
-                    android:gravity="center"/>
+<!--                <TextView-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/textview_style"-->
+<!--                    android:text="30"-->
+<!--                    android:gravity="center"/>-->
             </LinearLayout>
     </LinearLayout>
 
